@@ -1,0 +1,19 @@
+<header>
+    <div class="container">
+        <nav class="d-flex justify-content-center row">
+            <div class="col-4 d-flex">
+                <aside>
+                    <p>{{currentDate | date: 'EEEE, d MMMM y'}}</p>
+                    <p>{{currentDate | date: 'h:mm:ss'}}</p>
+                </aside>
+            </div>
+            <div class="col-4 d-flex">
+                <a routerLink="/">
+                    <i class="logOut"></i>
+                    Sign Out
+                </a>
+            </div>
+        </nav>
+    </div>
+</header>
+

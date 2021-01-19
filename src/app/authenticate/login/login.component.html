@@ -1,0 +1,17 @@
+<app-header></app-header>
+<section id="login" class="d-flex justify-content-center flex-column align-items-center">
+    <div class="alert" *ngIf="pgMsg" [ngClass]="pgMsg.alert">{{pgMsg.msg}}</div>
+    <form [formGroup]="logFrm" (submit)="onSubmit()">
+        <div class="formGrp">
+            <p>User Name</p>
+            <input type="text" formControlName="userName">
+        </div>
+        <div class="formGrp">
+            <p>Password</p>
+            <aside class="d-flex justify-content-between">
+                <input type="password" formControlName="password">
+                <button type="submit"><i></i>Sign in</button>
+            </aside>
+        </div>
+    </form>
+</section>

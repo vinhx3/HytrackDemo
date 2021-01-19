@@ -1,0 +1,31 @@
+section {
+    aside {
+        width: 100%;
+        height: 250px;
+        border: #5a5a5a solid 1px;
+        border-radius: 3px;
+        margin: 40px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        i {
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        i.settings {
+            background-image: url('/assets/icons/settings.svg');
+        }
+        i.book {
+            background-image: url('/assets/icons/book.svg');
+        }
+        i.user {
+            background-image: url('/assets/icons/user.svg');
+        }
+    }
+}

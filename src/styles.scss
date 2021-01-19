@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    background-color: #202020;
+}
+
+p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+
+
+.formGrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+input[type=text], input[type=password] {
+    border: #5a5a5a solid 1px;
+    border-radius: 3px;
+    background-color: #101010;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: #fff solid 1px;
+}
+
+button[type=submit] {
+    border: none;
+    background-color: #5a5a5a;
+    border-radius: 2px;
+    padding: 6px 15px;
+    font-size: 14px;
+    outline: 0;
+}

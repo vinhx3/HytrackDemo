@@ -1,0 +1,70 @@
+header {
+    background-color: #101010;
+    padding: 20px 0;
+    border-bottom: #5a5a5a solid 1px;
+    aside {
+        border-left: #5a5a5a solid 2px;
+        padding: 0 10px;
+        
+        i {
+            width: 25px;
+            height: 25px;
+            display: block;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            margin-right: 20px;
+        }
+        i.statistics {
+            background-image: url('/assets/icons/statistics.svg');
+        }
+        i.list {
+            background-image: url('/assets/icons/list.svg');
+        }
+        i.user {
+            background-image: url('/assets/icons/user.svg');
+        }
+    }
+    a {
+        text-decoration: none;
+        color: #5a5a5a;
+        font-weight: bold;
+        background-color: #202020;
+        padding: 5px 25px;
+        border-radius: 3px;
+        border: #5a5a5a solid 1px;
+        margin: 0 10px;
+        transition: 0.2s all linear;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        i {
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            filter: grayscale(60%) brightness(30%);
+            transition: 0.2s all linear;
+        }
+        i.home {
+            background-image: url('/assets/icons/home.svg');
+        }
+        i.info {
+            background-image: url('/assets/icons/info.svg');
+        }
+        i.logOut {
+            background-image: url('/assets/icons/logout.svg');
+        }
+    }
+    a:hover {
+        
+        color: #fff;
+        i {
+            filter: grayscale(0) brightness(100%);
+        }
+    }
+
+    
+}

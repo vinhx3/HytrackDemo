@@ -1,0 +1,36 @@
+section#login {
+    margin-top: 10%;
+    form {
+        width: 30%;
+        .formGrp {
+            
+            p {
+                width: 100px;
+            }
+
+            aside, input[type=text], input[type=password] {
+                width: calc(100% - 150px);
+            }
+
+            input[type=password] {
+                width: 60%;
+            }
+
+            button[type=submit] {
+                display: flex;
+                i {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    background-image: url('/assets/icons/logout.svg');
+                }
+            }
+
+        }
+        
+        
+    }
+}
